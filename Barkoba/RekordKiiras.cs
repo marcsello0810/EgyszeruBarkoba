@@ -16,7 +16,7 @@ namespace Barkoba
 
 			Tuple<int, string> mintuple = tuples.Min();
 			sr.Close();
-			Console.WriteLine("/"+mintuple.Item2 + "/ /" + mintuple.Item1 + "/ \n");
+			Console.WriteLine("\n/"+mintuple.Item2 + "/ /" + mintuple.Item1 + "/ \n");
 			Menu.opciovalasztas();
 		}
 	}
